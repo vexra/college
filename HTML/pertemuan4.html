@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 4</title>
+
+    <style>
+      li {
+        display: inline;
+        margin: 5px;
+      }
+
+      .box {
+        box-shadow: 6px 6px 5px 10px grey;
+        width: 60px;
+        height: 50px;
+        background-color: lime;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 800px;
+        height: 400px;
+        border: 1px solid black;
+        margin: 0 auto;
+      }
+
+      .left-content {
+        text-align: center;
+        line-height: 400px;
+        width: 30%;
+        height: 100%;
+        background-color: purple;
+        float: left;
+      }
+
+      .right-content {
+        text-align: center;
+        line-height: 400px;
+        width: 70%;
+        height: 100%;
+        background-color: blueviolet;
+        float: right;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <li>Home</li>
+      <li>about</li>
+      <li>product</li>
+      <li>about</li>
+      <li>contact</li>
+    </ul>
+
+    <div class="box"></div>
+
+    <div class="container">
+      <div class="left-content">
+        <h3>Left Content</h3>
+      </div>
+      <div class="right-content">
+        <h3>Right Content</h3>
+      </div>
+    </div>
+  </body>
+</html>

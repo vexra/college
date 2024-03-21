@@ -1,0 +1,8 @@
+*.class
+
+/Libraries
+
+/Netbeans/*/nbproject/private/
+/Netbeans/*/build/
+/Netbeans/*/dist/
+
