@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contact Us | Creative Studio</title>
+  </head>
+
+  <body>
+    <header class="flex items-center justify-between px-16 py-8">
+      <h1 class="font-semibold text-3xl">
+        <a href="/">Creative Studio</a>
+      </h1>
+
+      <nav class="flex gap-4 items-center justify-center">
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="max-w-7xl mx-auto p-4">
+        <h2 class="font-medium text-3xl sm:text-5xl">Get In Touch</h2>
+
+        <section class="my-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <section class="flex flex-col gap-4">
+            <img
+              src="assets/images/contact-us.webp"
+              alt="Creative studio kontak"
+              class="object-contain w-full"
+            />
+
+            <p>
+              Hubungi kami dan ceritakan apa saja yang Anda butuhkan. Jika kamu
+              ingin konsultasi terkait desain kamu atau mengajukan desain kamu
+              kepada kami, kamu dapat mengisi form berikut ini. Di sisi lain,
+              kamu juga bisa mengenal lebih jauh dengan Jua Team dengan cara
+              kamu bisa mengajukan pertanyaan kamu di form ini. Tunggu Kami
+              menghubungi atau membalas pesan Anda.
+            </p>
+
+            <section class="flex flex-col lg:flex-row gap-4 items-start">
+              <a
+                href="https://t.me/creativestudio"
+                class="mr-2 inline-flex items-center rounded-full bg-zinc-950 dark:bg-zinc-50 px-5 py-2 text-center text-sm font-semibold text-zinc-50 dark:text-zinc-950 focus:outline-none"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fab fa-telegram -ml-1 mr-2 text-lg font-bold text-zinc-50 dark:text-zinc-950"
+                ></i>
+                Join Channel Kami
+              </a>
+
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScMRDy9Ofe11xAW77fuwFh-aUhwz4T9gTw-fl1Gy6pERC_sTg/viewform"
+                class="mr-2 inline-flex items-center rounded-full bg-zinc-950 dark:bg-zinc-50 px-5 py-2 text-center text-sm font-semibold text-zinc-50 dark:text-zinc-950 focus:outline-none"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fas fa-external-link-alt -ml-1 mr-2 text-lg font-bold text-zinc-50 dark:text-zinc-950"
+                ></i>
+                Konsultasi Sekarang
+              </a>
+            </section>
+          </section>
+
+          <section class="flex flex-col gap-4">
+            <h3 class="font-medium text-xl">Contact Form</h3>
+            <form class="w-full">
+              <div class="mb-4">
+                <label
+                  for="name"
+                  class="block text-gray-700 text-sm font-bold mb-2"
+                  >Your Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="mb-4">
+                <label
+                  for="email"
+                  class="block text-gray-700 text-sm font-bold mb-2"
+                  >Your Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="message"
+                  class="block text-gray-700 text-sm font-bold mb-2"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                  rows="4"
+                  placeholder="Enter your message"
+                  required
+                ></textarea>
+              </div>
+              <div class="flex justify-end">
+                <button
+                  type="submit"
+                  class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer class="flex flex-col bg-zinc-950 text-zinc-50">
+      <section
+        class="flex w-full flex-col gap-4 p-4 sm:gap-8 sm:px-12 sm:py-12"
+      >
+        <section class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <section class="hidden flex-col gap-4 sm:visible sm:flex">
+            <header class="flex w-fit flex-col items-center">
+              <a href="/" class="flex items-center">
+                <img
+                  src="https://code.visualstudio.com/assets/images/code-stable.png"
+                  alt="Creative Studio Logo"
+                  width="32"
+                  height="32"
+                  class="mr-3 rounded-lg"
+                />
+                <h2
+                  class="self-center whitespace-nowrap text-2xl font-semibold"
+                >
+                  Creative <span>Studio</span>
+                </h2>
+              </a>
+            </header>
+            <p class="text-base">
+              <span class="font-bold">Creative Studio</span> adalah sebuah
+              perusahaan desain arsitektur yang mengutamakan prinsip-prinsip
+              ramah lingkungan dalam setiap proyeknya. Dengan berfokus pada
+              keberlanjutan, Creative Studio menciptakan solusi desain yang
+              inovatif, modern dan harmonis dengan alam sekitarnya.
+            </p>
+            <p class="text-base">
+              Pendekatan yang modern dalam merancang ruang hunian dan komersial,
+              Creative Studio berhasil menciptakan desain yang tidak hanya indah
+              secara visual tetapi juga memberikan kenyamanan bagi para
+              penghuninya. Creative Studio telah membuktikan bahwa keindahan
+              dapat dicapai tanpa mengorbankan tanggung jawab sosial kita
+              terhadap bumi kita.
+            </p>
+          </section>
+
+          <section class="flex flex-col gap-4">
+            <section class="flex flex-col gap-4">
+              <header>
+                <h2 class="text-lg font-semibold">HUBUNGI KAMI</h2>
+              </header>
+              <div class="flex flex-row items-center gap-4">
+                <span class="w-fit">
+                  <i class="fas fa-map-marker-alt h-5 w-5"></i>
+                </span>
+                <address class="not-italic">
+                  Jl. Kapten Tendean Gg. Masjid Nurussalam No. 77, Kedaton,
+                  Bandar Lampung 35145
+                </address>
+              </div>
+              <div class="flex flex-row items-center gap-4">
+                <i class="fas fa-phone h-5 w-5"></i>
+                <a href="tel:+62821212121">Telp : 0821-2121-2121</a>
+              </div>
+              <div class="flex flex-row items-center gap-4">
+                <i class="fas fa-envelope h-5 w-5"></i>
+                <a href="mailto:creativestudio@gmail.com"
+                  >creativestudio@gmail.com</a
+                >
+              </div>
+            </section>
+          </section>
+
+          <section class="flex flex-col gap-4">
+            <iframe
+              title="Google Maps Creative Studio"
+              class="h-64 w-full sm:h-96"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.345319731916!2d105.24032237419075!3d-5.364181194614595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40c5f60802221d%3A0xac5d5819e12c9bcf!2sUniversitas%20Lampung%20(UNILA)!5e0!3m2!1sid!2sid!4v1713445554796!5m2!1sid!2sid"
+              allowfullscreen="true"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </section>
+        </section>
+
+        <section
+          class="pt-auto flex flex-col gap-4 justify-center items-center"
+        >
+          <section
+            class="flex items-center justify-center gap-2 sm:justify-start"
+          >
+            <a
+              href="https://wa.me/62821212121?text=Assalamualaikum"
+              class="rounded-full w-12 h-12 flex items-center justify-center bg-zinc-900 text-zinc-50 dark:bg-zinc-50 dark:text-zinc-900"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="sr-only">Whatsapp</span>
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a
+              href="https://instagram.com"
+              class="rounded-full w-12 h-12 flex items-center justify-center bg-zinc-900 text-zinc-50 dark:bg-zinc-50 dark:text-zinc-900"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="sr-only">Instagram</span>
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="tel:+6282121212332"
+              class="rounded-full w-12 h-12 flex items-center justify-center bg-zinc-900 text-zinc-50 dark:bg-zinc-50 dark:text-zinc-900"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="sr-only">Phone Number</span>
+              <i class="fas fa-phone"></i>
+            </a>
+            <a
+              href="mailto:vex@gmail.com"
+              class="rounded-full w-12 h-12 flex items-center justify-center bg-zinc-900 text-zinc-50 dark:bg-zinc-50 dark:text-zinc-900"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="sr-only">Email</span>
+              <i class="fas fa-envelope"></i>
+            </a>
+          </section>
+          <p class="text-sm">
+            &copy; <span id="currentYear"></span>
+            <a
+              href="https://vex.com"
+              class="hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vex Inc.
+            </a>
+            All rights reserved.
+          </p>
+        </section>
+      </section>
+
+      <script>
+        document.getElementById("currentYear").innerText =
+          new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
